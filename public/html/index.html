@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ingrese producto</h1>
+    <form action="/products/save" method="post">
+                    <h5>add name</h5>
+              <input id="name" type="text" name= "nombre" placeholder="name">
+                    <h5>add price</h5>
+              <input id="price" type="text" name="price" placeholder="price">
+              <h5>add thumbnail</h5>
+              <input id="thumbnail" type="file" name="thumbnail" placeholder="thumbnail" >
+              <button id="btn">Enviar</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
